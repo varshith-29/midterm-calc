@@ -27,3 +27,10 @@ Run the calculator:
 ```bash
 py main.py
 ```
+
+## Testing
+
+```bash
+pytest --num_records=100
+pytest --pylint --cov
+```
