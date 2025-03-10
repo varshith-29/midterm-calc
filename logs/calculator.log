@@ -1,0 +1,7 @@
+2025-03-02 23:48:55,061 - calculator - INFO - Starting calculator in development environment
+2025-03-02 23:48:55,089 - calculator - INFO - Starting calculator application
+2025-03-02 23:48:55,089 - calculator - INFO - Loading calculator commands
+2025-03-02 23:48:55,092 - calculator - INFO - Starting calculator REPL
+2025-03-02 23:48:57,819 - calculator - INFO - Executing add command with 8 and 9
+2025-03-02 23:49:03,227 - calculator - INFO - Executing subtract command with 9 and 0
+2025-03-02 23:49:07,452 - calculator - INFO - Calculator application terminated

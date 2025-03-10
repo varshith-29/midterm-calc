@@ -41,9 +41,16 @@ def pytest_addoption(parser):
 def pytest_generate_tests(metafunc):
     '''Pytest generate tests'''
     # Check if the test is expecting any of the dynamically generated fixtures
-    if {"a", "b", "expected"}.intersection(set(metafunc.fixturenames)):
+    # First check we're not dealing with a command test
+    fixturenames = set(metafunc.fixturenames)
+    if 'command_class' in fixturenames:
+        return
+
+    # Then check if this is an operation test that needs parametrization
+    basic_params = {"a", "b", "expected"}
+    if basic_params.issubset(fixturenames) and 'operation' in fixturenames:
         num_records = metafunc.config.getoption("num_records")
         parameters = list(generate_test_data(num_records))
         # Modify parameters to fit test functions' expectations
-        modified_parameters = [(a, b, op_name if 'operation_name' in metafunc.fixturenames else op_func, expected) for a, b, op_name, op_func, expected in parameters]
+        modified_parameters = [(a, b, op_func, expected) for a, b, op_name, op_func, expected in parameters]
         metafunc.parametrize("a,b,operation,expected", modified_parameters)
