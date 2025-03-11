@@ -1,0 +1,114 @@
+2025-03-10 23:56:51,723 [INFO] root: Logging configured with level INFO
+2025-03-10 23:56:51,726 [INFO] calculator.history: Calculation history manager initialized
+2025-03-10 23:56:51,735 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-10 23:56:51,735 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-10 23:56:51,739 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:56:51,739 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-10 23:56:51,740 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-10 23:56:59,037 [INFO] calculator.core: Adding 7.0 and 6.0
+2025-03-10 23:56:59,039 [INFO] calculator.core: Calculation result: 13.0
+2025-03-10 23:56:59,052 [INFO] calculator.history: Saved history to calculator_history.csv
+2025-03-10 23:56:59,053 [INFO] calculator.history: Added calculation to history: + 7.0 6.0 = 13.0
+2025-03-10 23:57:12,541 [INFO] calculator.core: Dividing 8.0 by 9.0
+2025-03-10 23:57:12,542 [INFO] calculator.core: Calculation result: 0.8888888888888888
+2025-03-10 23:57:12,548 [INFO] calculator.history: Saved history to calculator_history.csv
+2025-03-10 23:57:12,549 [INFO] calculator.history: Added calculation to history: / 8.0 9.0 = 0.8888888888888888
+2025-03-10 23:57:51,298 [INFO] calculator.repl: Exiting calculator
+2025-03-10 23:58:07,461 [INFO] root: Logging configured with level INFO
+2025-03-10 23:58:07,464 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-10 23:58:07,466 [INFO] calculator.history: Calculation history manager initialized
+2025-03-10 23:58:07,472 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-10 23:58:07,472 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-10 23:58:07,472 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:07,472 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-10 23:58:07,472 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-10 23:58:07,473 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:07,475 [INFO] root: Logging configured with level INFO
+2025-03-10 23:58:07,477 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-10 23:58:07,477 [INFO] calculator.history: Calculation history manager initialized
+2025-03-10 23:58:07,477 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-10 23:58:07,479 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-10 23:58:07,479 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:07,479 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-10 23:58:07,479 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-10 23:58:07,479 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:07,485 [INFO] root: Logging configured with level INFO
+2025-03-10 23:58:07,489 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-10 23:58:07,489 [INFO] calculator.history: Calculation history manager initialized
+2025-03-10 23:58:07,489 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-10 23:58:07,489 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-10 23:58:07,489 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:07,489 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-10 23:58:07,491 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-10 23:58:07,491 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:21,358 [INFO] root: Logging configured with level INFO
+2025-03-10 23:58:21,361 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-10 23:58:21,362 [INFO] calculator.history: Calculation history manager initialized
+2025-03-10 23:58:21,365 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-10 23:58:21,365 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-10 23:58:21,366 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:21,366 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-10 23:58:21,366 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-10 23:58:21,367 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:21,369 [INFO] root: Logging configured with level INFO
+2025-03-10 23:58:21,369 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-10 23:58:21,369 [INFO] calculator.history: Calculation history manager initialized
+2025-03-10 23:58:21,369 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-10 23:58:21,369 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-10 23:58:21,369 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:21,369 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-10 23:58:21,369 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-10 23:58:21,369 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:21,380 [INFO] root: Logging configured with level INFO
+2025-03-10 23:58:21,384 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-10 23:58:21,384 [INFO] calculator.history: Calculation history manager initialized
+2025-03-10 23:58:21,385 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-10 23:58:21,385 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-10 23:58:21,385 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-10 23:58:21,385 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-10 23:58:21,386 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-10 23:58:21,386 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 00:09:31,484 [INFO] root: Logging configured with level INFO
+2025-03-11 00:09:31,487 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-11 00:09:31,487 [INFO] calculator.history: Calculation history manager initialized
+2025-03-11 00:09:31,489 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-11 00:09:31,489 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-11 00:09:31,489 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 00:09:31,489 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-11 00:09:31,489 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-11 00:09:31,499 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 00:09:31,504 [INFO] root: Logging configured with level INFO
+2025-03-11 00:09:31,504 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-11 00:09:31,504 [INFO] calculator.history: Calculation history manager initialized
+2025-03-11 00:09:31,504 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-11 00:09:31,504 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-11 00:09:31,504 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 00:09:31,504 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-11 00:09:31,504 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-11 00:09:31,504 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 00:09:31,518 [INFO] root: Logging configured with level INFO
+2025-03-11 00:09:31,520 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-11 00:09:31,521 [INFO] calculator.history: Calculation history manager initialized
+2025-03-11 00:09:31,521 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-11 00:09:31,521 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-11 00:09:31,521 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 00:09:31,521 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-11 00:09:31,521 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-11 00:09:31,521 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 23:43:04,794 [INFO] root: Logging configured with level INFO
+2025-03-11 23:43:04,809 [INFO] calculator.history: Loaded history from calculator_history.csv
+2025-03-11 23:43:04,809 [INFO] calculator.history: Calculation history manager initialized
+2025-03-11 23:43:04,825 [INFO] calculator.plugins.memory: Memory operations plugin registered
+2025-03-11 23:43:04,825 [INFO] calculator.repl: Loaded plugin: memory
+2025-03-11 23:43:04,828 [INFO] calculator.plugins.scientific: Scientific calculator plugin registered
+2025-03-11 23:43:04,829 [INFO] calculator.repl: Loaded plugin: scientific
+2025-03-11 23:43:04,829 [INFO] calculator.repl: Calculator REPL initialized
+2025-03-11 23:43:11,701 [INFO] calculator.core: Adding 9.0 and 8.0
+2025-03-11 23:43:11,701 [INFO] calculator.core: Calculation result: 17.0
+2025-03-11 23:43:11,704 [INFO] calculator.history: Saved history to calculator_history.csv
+2025-03-11 23:43:11,704 [INFO] calculator.history: Added calculation to history: + 9.0 8.0 = 17.0
+2025-03-11 23:43:28,165 [INFO] calculator.core: Subtracting 6.0 from 9.0
+2025-03-11 23:43:28,165 [INFO] calculator.core: Calculation result: 3.0
+2025-03-11 23:43:28,172 [INFO] calculator.history: Saved history to calculator_history.csv
+2025-03-11 23:43:28,172 [INFO] calculator.history: Added calculation to history: - 9.0 6.0 = 3.0
+2025-03-11 23:43:54,740 [INFO] calculator.repl: Exiting calculator
