@@ -1,105 +1,169 @@
-"""REPL implementation for calculator."""
-import importlib
-import inspect
-import pkgutil
-from decimal import Decimal, InvalidOperation
-from typing import Dict, Type
-from calculator.commands import Command
-import calculator.commands
-from calculator.config import logger, get_config
+"""REPL interface for the calculator application."""
 
-class CalculatorREPL:
-    """Interactive calculator REPL implementation."""
+import cmd
+import logging
+import importlib
+import pkgutil
+from typing import Optional, Dict, Any
+from .core import Calculator
+from .config import setup_logging
+
+logger = logging.getLogger(__name__)
+
+class CalculatorREPL(cmd.Cmd):
+    """Command-line interface for the calculator."""
+    
+    intro = 'Welcome to the Calculator! Type help or ? to list commands.\n'
+    prompt = 'calc> '
     
     def __init__(self):
-        self.commands: Dict[str, Type[Command]] = {}
-        self.config = get_config()
-        logger.debug(f"Initializing Calculator REPL with config: {self.config}")
-        self.load_commands()
+        """Initialize the REPL interface."""
+        super().__init__()
+        setup_logging()  # Initialize logging configuration
+        self.calculator = Calculator()
+        self.plugins: Dict[str, Any] = {}
+        self._load_plugins()
+        logger.info("Calculator REPL initialized")
     
-    def load_commands(self):
-        """Automatically load all command plugins."""
-        # Clear existing commands
-        self.commands.clear()
-        logger.info("Loading calculator commands")
-        
-        # Load all modules in the commands package
-        for _, name, _ in pkgutil.iter_modules(calculator.commands.__path__):
-            module = importlib.import_module(f'calculator.commands.{name}')
-            
-            # Find all Command subclasses in the module
-            for item_name, item in inspect.getmembers(module):
-                if (inspect.isclass(item) and 
-                    issubclass(item, Command) and 
-                    item != Command):
-                    command_name = item_name.replace('Command', '').lower()
-                    self.commands[command_name] = item
-    
-    def show_menu(self):
-        """Display available commands."""
-        print("\nAvailable commands:")
-        print("------------------")
-        for name, command in sorted(self.commands.items()):
-            print(f"{name}: {command.description()}")
-        print("\nmenu: Show this menu")
-        print("exit: Exit the calculator")
-        print()
-    
-    def execute_command(self, command_name: str, args: list[str]) -> bool:
-        """Execute a command with given arguments."""
-        if command_name not in self.commands:
-            print(f"Unknown command: {command_name}")
-            return True
-            
-        if len(args) != 2:
-            print(f"Error: {command_name} requires exactly two numbers")
-            return True
-            
+    def do_add(self, arg: str) -> None:
+        """Add two numbers: add X Y"""
         try:
-            a = Decimal(args[0])
-            b = Decimal(args[1])
-        except InvalidOperation:
-            print(f"Error: Invalid number input: {args[0]} or {args[1]}")
-            return True
-            
-        try:
-            command = self.commands[command_name]()
-            result = command.execute(a, b)
+            x, y = map(float, arg.split())
+            result = self.calculator.calculate('+', x, y)
             print(f"Result: {result}")
         except ValueError as e:
-            print(f"Error: {e}")
+            print(f"Error: {str(e)}")
+            logger.error(f"Error in add command: {str(e)}")
         except Exception as e:
-            print(f"An error occurred: {e}")
-            
+            print("Invalid input. Format: add X Y")
+            logger.error(f"Invalid input for add command: {str(e)}")
+    
+    def do_subtract(self, arg: str) -> None:
+        """Subtract two numbers: subtract X Y"""
+        try:
+            x, y = map(float, arg.split())
+            result = self.calculator.calculate('-', x, y)
+            print(f"Result: {result}")
+        except ValueError as e:
+            print(f"Error: {str(e)}")
+            logger.error(f"Error in subtract command: {str(e)}")
+        except Exception as e:
+            print("Invalid input. Format: subtract X Y")
+            logger.error(f"Invalid input for subtract command: {str(e)}")
+    
+    def do_multiply(self, arg: str) -> None:
+        """Multiply two numbers: multiply X Y"""
+        try:
+            x, y = map(float, arg.split())
+            result = self.calculator.calculate('*', x, y)
+            print(f"Result: {result}")
+        except ValueError as e:
+            print(f"Error: {str(e)}")
+            logger.error(f"Error in multiply command: {str(e)}")
+        except Exception as e:
+            print("Invalid input. Format: multiply X Y")
+            logger.error(f"Invalid input for multiply command: {str(e)}")
+    
+    def do_divide(self, arg: str) -> None:
+        """Divide two numbers: divide X Y"""
+        try:
+            x, y = map(float, arg.split())
+            result = self.calculator.calculate('/', x, y)
+            print(f"Result: {result}")
+        except ValueError as e:
+            print(f"Error: {str(e)}")
+            logger.error(f"Error in divide command: {str(e)}")
+        except Exception as e:
+            print("Invalid input. Format: divide X Y")
+            logger.error(f"Invalid input for divide command: {str(e)}")
+    
+    def do_quit(self, arg: str) -> bool:
+        """Exit the calculator"""
+        logger.info("Exiting calculator")
+        print("Goodbye!")
         return True
     
-    def run(self):
-        """Start the REPL loop."""
-        logger.info("Starting calculator REPL")
-        print("Welcome to the Calculator!")
-        self.show_menu()
-        
-        while True:
-            try:
-                user_input = input("calc> ").strip().lower()
-                if not user_input:
-                    continue
-                    
-                parts = user_input.split()
-                command = parts[0]
-                args = parts[1:]
-                logger.debug(f"Executing command: {command} with args: {args}")
-                
-                if command == 'exit':
-                    break
-                elif command == 'menu':
-                    self.show_menu()
-                else:
-                    self.execute_command(command, args)
-                    
-            except KeyboardInterrupt:
-                print("\nUse 'exit' to quit")
-            except Exception as e:
-                print(f"An error occurred: {e}")
-                
-        print("Goodbye!")
+    def do_EOF(self, arg: str) -> bool:
+        """Handle EOF (Ctrl+D)"""
+        return self.do_quit(arg)
+    
+    def do_history(self, arg: str) -> None:
+        """Show calculation history: history [limit]"""
+        try:
+            limit = int(arg) if arg else None
+            history = self.calculator.history.get_history(limit)
+            if history.empty:
+                print("No calculations in history.")
+                return
+            print("\nCalculation History:")
+            print(history.to_string(index=False))
+        except ValueError:
+            print("Invalid limit value. Please provide a number.")
+            logger.error("Invalid history limit provided")
+        except Exception as e:
+            print(f"Error retrieving history: {str(e)}")
+            logger.error(f"Error in history command: {str(e)}")
+    
+    def do_stats(self, arg: str) -> None:
+        """Show calculation statistics"""
+        try:
+            stats = self.calculator.history.get_statistics()
+            print("\nCalculation Statistics:")
+            print(f"Total calculations: {stats['total_calculations']}")
+            print("\nOperations breakdown:")
+            for op, count in stats['operations_count'].items():
+                print(f"  {op}: {count}")
+            print(f"\nAverage result: {stats['average_result']:.2f}")
+            print(f"Maximum result: {stats['max_result']}")
+            print(f"Minimum result: {stats['min_result']}")
+        except Exception as e:
+            print(f"Error retrieving statistics: {str(e)}")
+            logger.error(f"Error in stats command: {str(e)}")
+    
+    def do_clear(self, arg: str) -> None:
+        """Clear calculation history"""
+        try:
+            self.calculator.history.clear_history()
+            print("History cleared successfully.")
+        except Exception as e:
+            print(f"Error clearing history: {str(e)}")
+            logger.error(f"Error in clear command: {str(e)}")
+    
+    def _load_plugins(self) -> None:
+        """Load calculator plugins from the plugins directory."""
+        try:
+            import calculator.plugins
+            for _, name, _ in pkgutil.iter_modules(calculator.plugins.__path__):
+                try:
+                    plugin = importlib.import_module(f"calculator.plugins.{name}")
+                    if hasattr(plugin, 'register_commands'):
+                        plugin.register_commands(self)
+                        self.plugins[name] = plugin
+                        logger.info(f"Loaded plugin: {name}")
+                except Exception as e:
+                    logger.error(f"Error loading plugin {name}: {str(e)}")
+        except Exception as e:
+            logger.error(f"Error loading plugins: {str(e)}")
+    
+    def do_plugins(self, arg: str) -> None:
+        """List all available plugins"""
+        if not self.plugins:
+            print("No plugins loaded.")
+            return
+        print("\nAvailable Plugins:")
+        for name in self.plugins:
+            print(f"  - {name}")
+
+def main():
+    """Main entry point for the calculator REPL."""
+    try:
+        CalculatorREPL().cmdloop()
+    except KeyboardInterrupt:
+        print("\nGoodbye!")
+        logger.info("Calculator terminated by keyboard interrupt")
+    except Exception as e:
+        logger.error(f"Unexpected error in calculator REPL: {str(e)}")
+        raise
+
+if __name__ == '__main__':
+    main()
