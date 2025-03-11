@@ -5,6 +5,8 @@ A feature-rich command-line calculator application with plugin support, calculat
 ## Features
 
 - Basic arithmetic operations (add, subtract, multiply, divide)
+- Memory operations for storing and recalling values
+- Scientific calculator functions (power, square root)
 
 ## Installation
 
@@ -27,6 +29,14 @@ Run the calculator:
 ```bash
 py main.py
 ```
+
+### Available Commands
+
+- Basic Operations:
+  - `add X Y` - Add two numbers
+  - `subtract X Y` - Subtract Y from X
+  - `multiply X Y` - Multiply two numbers
+  - `divide X Y` - Divide X by Y
 
 ## Testing
 
