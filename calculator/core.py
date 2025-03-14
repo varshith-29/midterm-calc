@@ -1,7 +1,7 @@
 """Core calculator functionality implementation."""
 
 import logging
-from .history import CalculationHistory
+from calculator.history import CalculationHistory
 from typing import Any, Dict, Optional, Callable
 
 # Set up logging
@@ -12,7 +12,7 @@ class Calculator:
     
     def __init__(self):
         """Initialize the calculator with basic operations."""
-        self.operations: Dict[str, Callable] = {
+        self.operations = {
             '+': self.add,
             '-': self.subtract,
             '*': self.multiply,
@@ -43,7 +43,7 @@ class Calculator:
         logger.info(f"Dividing {x} by {y}")
         return x / y
     
-    def calculate(self, operation: str, x: float, y: float) -> Optional[float]:
+    def calculate(self, operation: str, x: float, y: float) -> float:
         """Perform the specified calculation."""
         try:
             if operation not in self.operations:
@@ -52,6 +52,8 @@ class Calculator:
             
             result = self.operations[operation](x, y)
             logger.info(f"Calculation result: {result}")
+            
+            # Add to history
             self.history.add_calculation(operation, x, y, result)
             return result
             

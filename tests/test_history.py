@@ -32,10 +32,10 @@ def test_get_history(history):
     """Test retrieving history with and without limits."""
     history.add_calculation('+', 2, 3, 5)
     history.add_calculation('-', 5, 3, 2)
-    
+
     full_history = history.get_history()
     assert len(full_history) == 2
-    
+
     limited_history = history.get_history(limit=1)
     assert len(limited_history) == 1
 
@@ -50,7 +50,7 @@ def test_get_statistics(history):
     history.add_calculation('+', 2, 3, 5)
     history.add_calculation('+', 3, 4, 7)
     history.add_calculation('-', 5, 3, 2)
-    
+
     stats = history.get_statistics()
     assert stats['total_calculations'] == 3
     assert stats['operations_count']['+'] == 2
@@ -62,8 +62,8 @@ def test_get_statistics(history):
 def test_persistence(history):
     """Test history persistence to file."""
     history.add_calculation('+', 2, 3, 5)
-    history._save_history()
-    
+    history._save_history() # pylint: disable=protected-access
+
     new_history = CalculationHistory("test_history.csv")
     assert len(new_history.history) == 1
     assert new_history.history.iloc[0]['operation'] == '+'
