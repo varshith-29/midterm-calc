@@ -39,6 +39,22 @@ def register_commands(repl: Any) -> None:
                 return
                 
             try:
+                # Handle special cases
+                if math.isnan(x) or math.isnan(y):
+                    self.result = float('nan')
+                    self.print(f"{self.result}")
+                    return
+                    
+                if math.isinf(x):
+                    if y > 0:
+                        self.result = float('inf')
+                    elif y < 0:
+                        self.result = 0.0
+                    else:  # y == 0
+                        self.result = 1.0
+                    self.print(f"{self.result}")
+                    return
+                
                 if x < 0 and not y.is_integer():
                     self.print("Error: Cannot calculate fractional power of negative number")
                     return
@@ -80,6 +96,21 @@ def register_commands(repl: Any) -> None:
                 return
                 
             try:
+                # Handle special cases
+                if math.isnan(x):
+                    self.result = float('nan')
+                    self.print(f"{self.result}")
+                    return
+                    
+                if math.isinf(x) and x > 0:
+                    self.result = float('inf')
+                    self.print(f"{self.result}")
+                    return
+                
+                if x < 0:
+                    self.print("Error: Cannot calculate square root of negative number")
+                    return
+                
                 result = plugin.sqrt(x)
                 self.result = result
                 self.print(f"{result}")
@@ -114,15 +145,23 @@ class ScientificPlugin:
     def power(self, x: float, y: float) -> float:
         """Calculate x raised to power y."""
         try:
+            # Handle special cases
+            if math.isnan(x) or math.isnan(y):
+                return float('nan')
+                
+            if math.isinf(x):
+                if y > 0:
+                    return float('inf')
+                elif y < 0:
+                    return 0.0
+                else:  # y == 0
+                    return 1.0
+            
             # Check for special cases
             if x < 0 and not y.is_integer():
                 raise ValueError("Cannot calculate fractional power of negative number")
             if x == 0 and y < 0:
                 raise ValueError("Cannot calculate negative power of zero")
-            
-            # Special test cases
-            if math.isnan(x) or math.isnan(y):
-                return float('nan')
                 
             # Handle large numbers that would overflow
             if abs(x) > 1e100 and abs(y) > 1:
@@ -141,6 +180,13 @@ class ScientificPlugin:
 
     def sqrt(self, x: float) -> float:
         """Calculate square root of x."""
+        # Handle special cases
+        if math.isnan(x):
+            return float('nan')
+            
+        if math.isinf(x) and x > 0:
+            return float('inf')
+            
         if x < 0:
             raise ValueError("Cannot calculate square root of negative number")
             

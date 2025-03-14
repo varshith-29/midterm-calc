@@ -27,7 +27,7 @@ def test_main_keyboard_interrupt():
                 with patch('logging.getLogger'):
                     result = main()
                     assert result == 0
-                    mock_print.assert_called_with("\nGoodbye!")
+                    mock_print.assert_called_once_with("\nGoodbye!")
 
 def test_main_unexpected_error():
     """Test main function with unexpected error."""
@@ -41,4 +41,4 @@ def test_main_unexpected_error():
                 with patch('logging.getLogger'):
                     result = main()
                     assert result == 1
-                    mock_print.assert_called_with("An unexpected error occurred: Test error") 
+                    mock_print.assert_called_once_with("An unexpected error occurred: Test error") 

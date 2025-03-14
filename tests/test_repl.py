@@ -136,6 +136,8 @@ def test_input_validation():
 @patch('calculator.repl.CalculatorREPL.cmdloop')
 def test_main_function(mock_cmdloop):
     """Test the main function of the REPL."""
+    # We need to ensure cmdloop doesn't raise KeyboardInterrupt
+    mock_cmdloop.return_value = None
     main()
     mock_cmdloop.assert_called_once()
 

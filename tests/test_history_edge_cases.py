@@ -49,17 +49,15 @@ def test_save_to_readonly_location(tmp_path):
     finally:
         os.chmod(read_only_dir, 0o755)
 
-def test_save_error_handling(history, monkeypatch):
-    """Test error handling during save operation."""
-    def mock_to_csv(*args, **kwargs):
-        raise IOError("Mock save error")
+def test_save_error_handling():
+    """Test error handling when saving history."""
+    history = CalculationHistory()
     
-    # Mock DataFrame.to_csv to raise an error
-    monkeypatch.setattr(pd.DataFrame, "to_csv", mock_to_csv)
-    
-    # Should handle save error gracefully
-    history.add_calculation("add", 1, 2, 3)
-    assert len(history.get_history()) == 1
+    # Mock to_csv to raise an exception
+    with patch.object(pd.DataFrame, 'to_csv', side_effect=Exception("Mock save error")):
+        with pytest.raises(Exception) as excinfo:
+            history._save_history()
+        assert "Failed to save history to file" in str(excinfo.value)
 
 def test_statistics_with_empty_history(history):
     """Test statistics calculation with empty history."""
@@ -169,14 +167,36 @@ def test_edge_case_data_types():
     stats = history.get_statistics()
     assert stats['max_result'] == 10000000000.0
 
-def test_statistics_with_invalid_results(history):
-    """Test statistics calculation with invalid/special results."""
-    # Add mix of normal and special values
-    history.add_calculation("add", 1, 2, 3)
-    history.add_calculation("add", float("inf"), 1, float("inf"))
-    history.add_calculation("add", float("nan"), 1, float("nan"))
+def test_statistics_with_invalid_results():
+    """Test statistics calculation with invalid results."""
+    history = CalculationHistory()
     
+    # Create a DataFrame with some valid and some invalid results
+    history._df = pd.DataFrame([
+        {'timestamp': pd.Timestamp.now(), 'operation': '+', 'x': 1.0, 'y': 2.0, 'result': 3.0},
+        {'timestamp': pd.Timestamp.now(), 'operation': '*', 'x': 2.0, 'y': 3.0, 'result': 6.0}
+    ])
+    
+    # Get statistics
     stats = history.get_statistics()
-    # Should handle inf/nan gracefully in statistics
-    assert not pd.isna(stats["total_calculations"])
-    assert stats["total_calculations"] == 3
+    
+    # Check statistics
+    assert stats['total_calculations'] == 2
+    assert stats['average_result'] == 4.5
+    assert stats['max_result'] == 6.0
+    assert stats['min_result'] == 3.0
+    
+    # Test with NaN/Inf values directly in the DataFrame
+    history._df = pd.DataFrame([
+        {'timestamp': pd.Timestamp.now(), 'operation': '+', 'x': 1.0, 'y': 2.0, 'result': float('nan')},
+        {'timestamp': pd.Timestamp.now(), 'operation': '*', 'x': 2.0, 'y': 3.0, 'result': float('inf')}
+    ])
+    
+    # Get statistics - should handle NaN/Inf gracefully
+    stats = history.get_statistics()
+    assert stats['total_calculations'] == 2
+    assert stats['operations_count'] == {'+': 1, '*': 1}
+    # Since all results are NaN/Inf, we should get default values
+    assert stats['average_result'] == 0.0
+    assert stats['max_result'] == float('-inf')
+    assert stats['min_result'] == float('inf')

@@ -4631,3 +4631,2075 @@ OSError: pytest: reading from stdin while output is captured!  Consider using `-
 2025-03-15 02:48:31,001 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
 2025-03-15 02:48:31,004 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
 2025-03-15 02:48:31,007 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,496 [INFO] root: Logging configured with level INFO
+2025-03-15 03:05:39,496 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,496 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,496 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,496 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,496 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,496 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,496 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:05:39,496 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:05:39,507 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,509 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,509 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,510 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,510 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,510 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,513 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,513 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,514 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,514 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,515 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:05:39,515 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:05:39,521 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,522 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,523 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,523 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,523 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,523 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,529 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,529 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,529 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,529 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,529 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,529 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,543 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,547 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,548 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,548 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,548 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,548 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,555 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,556 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,557 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,557 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,557 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,557 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,566 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,568 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,568 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,568 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,569 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,569 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,580 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,582 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,582 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,583 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,583 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,583 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,591 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,592 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,593 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,593 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,593 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,594 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,602 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,603 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,604 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,604 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,604 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,604 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,610 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,614 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,614 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,614 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,614 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,614 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,620 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,622 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,622 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,623 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,623 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,623 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,632 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,632 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,634 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,634 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,634 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,634 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,636 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:05:39,636 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:05:39,636 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:05:39,636 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:05:39,641 [INFO] calculator.history: No history file found
+2025-03-15 03:05:39,643 [INFO] calculator.history: History manager initialized
+2025-03-15 03:05:39,643 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:05:39,644 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:05:39,644 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,645 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:05:39,679 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,683 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,685 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,688 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,692 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,698 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,702 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,705 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,707 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,714 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,718 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,722 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:05:39,725 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,735 [INFO] root: Logging configured with level INFO
+2025-03-15 03:06:03,737 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,739 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,739 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,739 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,739 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,741 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,741 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:06:03,741 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:06:03,747 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,747 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,747 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,747 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,747 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,747 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,747 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,747 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,747 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,747 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,747 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:06:03,747 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:06:03,763 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,765 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,765 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,765 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,767 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,767 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,770 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,770 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,778 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,778 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,780 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,780 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,788 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,790 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,790 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,790 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,790 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,790 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,799 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,801 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,801 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,801 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,801 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,801 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,810 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,814 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,814 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,814 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,814 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,814 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,822 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,823 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,826 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,826 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,826 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,826 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,837 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,838 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,839 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,839 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,839 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,839 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,847 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,849 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,849 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,849 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,849 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,849 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,855 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,857 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,857 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,859 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,859 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,859 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,861 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,861 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,861 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,861 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,861 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,861 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,874 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,874 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,876 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,876 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,876 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,876 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,880 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:06:03,880 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:06:03,880 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:06:03,880 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:06:03,884 [INFO] calculator.history: No history file found
+2025-03-15 03:06:03,884 [INFO] calculator.history: History manager initialized
+2025-03-15 03:06:03,884 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:06:03,884 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:06:03,884 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,884 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:06:03,913 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,930 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,934 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,934 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,941 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,947 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,951 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,956 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,961 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,961 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,968 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,968 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:06:03,977 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,902 [INFO] root: Logging configured with level INFO
+2025-03-15 03:25:06,903 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,904 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,904 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,905 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,905 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,905 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,905 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:25:06,905 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:25:06,908 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,909 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,910 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,910 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,910 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,910 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,910 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,911 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,911 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,911 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,912 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:25:06,912 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:25:06,914 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,914 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,914 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,914 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,914 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,914 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,923 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,924 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,925 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,925 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,925 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,925 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,928 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,928 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,929 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,930 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,930 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,930 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,935 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,935 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,936 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,936 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,936 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,936 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,939 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,939 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,939 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,939 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,939 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,939 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,947 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,949 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,949 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,949 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,949 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,949 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,954 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,955 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,955 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,955 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,955 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,955 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,958 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,958 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,958 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,961 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,961 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,961 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,965 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,966 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,967 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,967 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,967 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,967 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,971 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,972 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,972 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,972 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,973 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,973 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,976 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,977 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,977 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,977 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,977 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,977 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,977 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:25:06,977 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:25:06,977 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:25:06,979 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:25:06,984 [INFO] calculator.history: No history file found
+2025-03-15 03:25:06,985 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:06,985 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:06,985 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:06,985 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:06,986 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:06,996 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,000 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,003 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,005 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,007 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,009 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,012 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,018 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,020 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,022 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,025 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,027 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:07,033 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,390 [INFO] root: Logging configured with level INFO
+2025-03-15 03:25:19,392 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,393 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,394 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,394 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,394 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,394 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,397 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:25:19,398 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:25:19,404 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,405 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,405 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,406 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,406 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,406 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,407 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,407 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,407 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,407 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,407 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:25:19,407 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:25:19,414 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,414 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,414 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,414 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,414 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,414 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,425 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,427 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,427 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,427 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,427 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,428 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,434 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,436 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,436 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,436 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,437 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,437 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,437 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,437 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,437 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,437 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,437 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,437 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,451 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,452 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,453 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,453 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,453 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,453 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,461 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,462 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,463 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,464 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,464 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,465 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,471 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,472 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,473 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,473 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,473 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,473 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,478 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,481 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,482 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,482 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,482 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,482 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,488 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,490 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,490 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,491 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,491 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,491 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,498 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,498 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,498 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,498 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,498 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,498 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,507 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,508 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,509 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,509 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,509 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,509 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,511 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:25:19,511 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:25:19,513 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:25:19,513 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:25:19,519 [INFO] calculator.history: No history file found
+2025-03-15 03:25:19,519 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:19,519 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:19,519 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:19,519 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,519 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:19,536 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,536 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,546 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,552 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,555 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,557 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,562 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,567 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,571 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,575 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,578 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,584 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:19,587 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,464 [INFO] root: Logging configured with level INFO
+2025-03-15 03:25:54,464 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,464 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,464 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,464 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,464 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,464 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,464 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:25:54,464 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:25:54,474 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,476 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,476 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,476 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,476 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,476 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,476 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,478 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,478 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,478 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,480 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:25:54,480 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:25:54,484 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,484 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,484 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,484 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,484 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,484 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,495 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,497 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,497 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,497 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,497 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,497 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,497 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,497 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,497 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,497 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,497 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,497 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,511 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,513 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,513 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,513 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,513 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,513 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,513 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,513 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,513 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,513 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,513 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,513 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,530 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,530 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,530 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,530 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,530 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,530 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,530 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,530 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,530 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,530 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,530 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,530 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,551 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,552 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,553 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,553 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,553 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,553 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,558 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,560 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,560 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,560 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,561 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,561 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,570 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,572 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,573 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,573 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,573 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,573 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,581 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,583 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,584 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,585 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,585 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,585 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,586 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:25:54,587 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:25:54,587 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:25:54,587 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:25:54,592 [INFO] calculator.history: No history file found
+2025-03-15 03:25:54,593 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:54,593 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:54,593 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:54,593 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,593 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:54,614 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,614 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,614 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,614 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,614 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,630 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,630 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,630 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,630 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,647 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,647 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,647 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:54,647 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:59,230 [INFO] root: Logging configured with level INFO
+2025-03-15 03:25:59,230 [INFO] calculator.history: No history file found
+2025-03-15 03:25:59,230 [INFO] calculator.history: History manager initialized
+2025-03-15 03:25:59,248 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:25:59,249 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:25:59,249 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:25:59,249 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:25:59,249 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:27:56,361 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:31:24,879 [INFO] root: Logging configured with level INFO
+2025-03-15 03:31:24,882 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,884 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,884 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,884 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,884 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,885 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,885 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:31:24,885 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:31:24,890 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,892 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,892 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,893 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,893 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,893 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,893 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,894 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,894 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,894 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,897 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:31:24,897 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:31:24,902 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,904 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,905 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,905 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,905 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,906 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,915 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,917 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,917 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,918 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,918 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,918 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,923 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,925 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,926 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,926 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,926 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,926 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,932 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,934 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,935 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,935 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,935 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,935 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,942 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,944 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,944 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,945 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,945 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,945 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,953 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,953 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,955 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,955 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,955 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,955 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,957 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,964 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,964 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,964 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,964 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,964 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,964 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,964 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,964 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,964 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,964 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,964 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,981 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,983 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,985 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,985 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,985 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,985 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:24,985 [INFO] calculator.history: No history file found
+2025-03-15 03:31:24,985 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:24,985 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:24,985 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:24,985 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:24,985 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:25,000 [INFO] calculator.history: No history file found
+2025-03-15 03:31:25,002 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:25,002 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:25,002 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:25,004 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,004 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:25,005 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:31:25,006 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:31:25,006 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:31:25,006 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:31:25,011 [INFO] calculator.history: No history file found
+2025-03-15 03:31:25,014 [INFO] calculator.history: History manager initialized
+2025-03-15 03:31:25,016 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:31:25,016 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:31:25,016 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,016 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:31:25,035 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,035 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,040 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,046 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,052 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,055 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,058 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,062 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,066 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,066 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,066 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,075 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:31:25,084 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,041 [INFO] root: Logging configured with level INFO
+2025-03-15 03:33:52,043 [INFO] calculator.main: Initializing calculator
+2025-03-15 03:33:52,043 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,045 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,052 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,054 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,055 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,055 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,055 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,056 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,056 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:33:52,056 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:33:52,061 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,063 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,068 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,071 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,071 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,071 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,072 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,072 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,072 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,073 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,073 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,073 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,074 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:33:52,074 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:33:52,079 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,084 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,086 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,088 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,088 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,088 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,088 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,089 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,089 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,100 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,102 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,104 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,104 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,104 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,105 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,105 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,110 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,111 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,113 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,120 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,121 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,121 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,121 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,121 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,126 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,127 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,131 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,131 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,131 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,131 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,131 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,131 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,141 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,142 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,143 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,148 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,148 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,148 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,148 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,148 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,158 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,160 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,161 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,165 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,167 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,167 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,167 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,167 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,174 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,176 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,177 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,181 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,181 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,181 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,183 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,183 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,189 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,191 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,192 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,192 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,192 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,192 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,192 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,192 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,203 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,205 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,206 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,208 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,209 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,209 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,209 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,209 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,218 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,219 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,222 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,224 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,224 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,224 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,224 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,224 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,234 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,234 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,234 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,234 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,234 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,234 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,234 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,234 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,234 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:33:52,234 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:33:52,234 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:33:52,234 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:33:52,252 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,254 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,257 [INFO] calculator.history: No history file found
+2025-03-15 03:33:52,261 [INFO] calculator.history: History manager initialized
+2025-03-15 03:33:52,261 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:33:52,261 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:33:52,261 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,261 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:33:52,286 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,289 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,292 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,299 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,302 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,304 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,308 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,311 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,319 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,322 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,327 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,332 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:33:52,338 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,193 [INFO] root: Logging configured with level INFO
+2025-03-15 03:35:50,193 [INFO] calculator.main: Starting calculator application
+2025-03-15 03:35:50,196 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,198 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,201 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,205 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,206 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,206 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,206 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,206 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,207 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:35:50,212 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,215 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,217 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,219 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,219 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,219 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,219 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,219 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,219 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,219 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,219 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,219 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,224 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:35:50,224 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:35:50,230 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,236 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,238 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,239 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,240 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,240 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,240 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,240 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,250 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,250 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,250 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,250 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,250 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,250 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,250 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,250 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,262 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,265 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,265 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,265 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,265 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,265 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,265 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,265 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,276 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,277 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,281 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,283 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,283 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,283 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,283 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,283 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,291 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,293 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,294 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,303 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,304 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,304 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,304 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,304 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,311 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,315 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,317 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,319 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,321 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,321 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,321 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,321 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,327 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,329 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,332 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,332 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,335 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,335 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,335 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,335 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,340 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,342 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,344 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,344 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,344 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,348 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,349 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,349 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,354 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,355 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,356 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,358 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,358 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,358 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,358 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,359 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,364 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,368 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,368 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,370 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,372 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,372 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,372 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,372 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,378 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,382 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,384 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,386 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,386 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,387 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,387 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,387 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,388 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:35:50,389 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:35:50,390 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:35:50,390 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:35:50,396 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,398 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,400 [INFO] calculator.history: No history file found
+2025-03-15 03:35:50,401 [INFO] calculator.history: History manager initialized
+2025-03-15 03:35:50,402 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:35:50,402 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:35:50,402 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,402 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:35:50,421 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,428 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,432 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,436 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,443 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,449 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,455 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,459 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,463 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,468 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,472 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,475 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:35:50,477 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,153 [INFO] root: Logging configured with level INFO
+2025-03-15 03:39:29,154 [INFO] calculator.main: Starting calculator application
+2025-03-15 03:39:29,155 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,157 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,159 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,160 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,161 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,161 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,161 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,161 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,161 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:39:29,168 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,170 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,171 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,174 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,174 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,174 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,174 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,174 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,174 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,174 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,174 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,174 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,174 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:39:29,174 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:39:29,184 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,186 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,187 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,188 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,188 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,188 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,188 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,188 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,197 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,200 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,201 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,203 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,203 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,203 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,203 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,203 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,210 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,212 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,213 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,216 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,217 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,217 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,217 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,217 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,222 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,224 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,226 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,228 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,228 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,228 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,228 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,228 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,237 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,238 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,238 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,238 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,238 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,238 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,238 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,238 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,248 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,248 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,248 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,248 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,248 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,248 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,248 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,248 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,270 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,272 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,274 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,275 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,275 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,276 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,276 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,276 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,284 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,286 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,286 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,286 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,286 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,286 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,286 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,286 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,286 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,300 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,304 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,306 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,306 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,307 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,307 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,307 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,312 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,314 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,316 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,318 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,319 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,319 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,320 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,320 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,326 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,327 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,332 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,333 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,336 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,336 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,336 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,336 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,338 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:39:29,338 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:39:29,338 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:39:29,339 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:39:29,345 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,346 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,348 [INFO] calculator.history: No history file found
+2025-03-15 03:39:29,348 [INFO] calculator.history: History manager initialized
+2025-03-15 03:39:29,348 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:39:29,348 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:39:29,348 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,348 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:39:29,370 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,374 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,377 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,381 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,385 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,388 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,391 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,395 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,400 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,404 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,407 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,409 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:39:29,415 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,720 [INFO] root: Logging configured with level INFO
+2025-03-15 03:44:46,720 [INFO] calculator.main: Initializing calculator
+2025-03-15 03:44:46,722 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,724 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,725 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,727 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,727 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,727 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,728 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,728 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,728 [INFO] calculator.main: Starting calculator REPL
+2025-03-15 03:44:46,728 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 03:44:46,735 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,737 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,739 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,741 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,741 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,741 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,742 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,742 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,742 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,742 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,743 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,743 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,745 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 03:44:46,745 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 03:44:46,754 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,756 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,757 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,759 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,759 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,759 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,759 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,759 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,767 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,767 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,767 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,767 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,767 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,767 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,767 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,767 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,779 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,781 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,784 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,786 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,786 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,786 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,786 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,787 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,791 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,793 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,795 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,798 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,799 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,800 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,800 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,800 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,807 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,809 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,810 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,812 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,812 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,812 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,812 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,812 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,822 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,823 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,825 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,826 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,826 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,827 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,827 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,827 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,850 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,852 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,855 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,856 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,857 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,857 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,858 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,858 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,864 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,868 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,871 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,873 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,874 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,874 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,874 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,874 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,882 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,884 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,886 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,888 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,888 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,889 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,889 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,889 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,890 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,890 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,900 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,901 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,902 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,902 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,902 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,902 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,912 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,914 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,917 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,919 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,920 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,920 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,921 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,921 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,921 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 03:44:46,924 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:44:46,924 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 03:44:46,924 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 03:44:46,931 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,933 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,938 [INFO] calculator.history: No history file found
+2025-03-15 03:44:46,939 [INFO] calculator.history: History manager initialized
+2025-03-15 03:44:46,940 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 03:44:46,940 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 03:44:46,940 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,940 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 03:44:46,942 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,945 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,948 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,956 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,956 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,964 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,971 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,974 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,978 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,981 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,986 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,991 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 03:44:46,993 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,403 [INFO] root: Logging configured with level INFO
+2025-03-15 04:05:01,404 [INFO] calculator.main: Starting calculator application
+2025-03-15 04:05:01,406 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,408 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,410 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,412 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,413 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,413 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,413 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,413 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,414 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 04:05:01,419 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,421 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,427 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,428 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,429 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,430 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,431 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,431 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,431 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,432 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,432 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,432 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,439 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 04:05:01,440 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 04:05:01,463 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,465 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,466 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,473 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,474 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,474 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,474 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,474 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,486 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,488 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,492 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,494 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,495 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,495 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,496 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,496 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,503 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,505 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,511 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,512 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,513 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,513 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,513 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,513 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,519 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,519 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,526 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,528 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,530 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,530 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,530 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,530 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,546 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,548 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,553 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,555 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,557 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,557 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,557 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,557 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,564 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,570 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,578 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,580 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,580 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,582 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,582 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,582 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,592 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,597 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,599 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,601 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,601 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,603 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,603 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,604 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,609 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,614 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,616 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,619 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,621 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,621 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,621 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,621 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,629 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,631 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,633 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,636 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,636 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,637 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,637 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,637 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,648 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,649 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,654 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,654 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,656 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,658 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,658 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,658 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,664 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,666 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,669 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,675 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,676 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,676 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,677 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,677 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,678 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 04:05:01,679 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:05:01,679 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 04:05:01,679 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:05:01,679 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,687 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,689 [INFO] calculator.history: No history file found
+2025-03-15 04:05:01,693 [INFO] calculator.history: History manager initialized
+2025-03-15 04:05:01,693 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:05:01,694 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:05:01,694 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,694 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:05:01,713 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,725 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,729 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,733 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,744 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,747 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,753 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,759 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,763 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,767 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,776 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,779 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:05:01,781 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,283 [INFO] root: Logging configured with level INFO
+2025-03-15 04:07:20,283 [INFO] calculator.main: Starting calculator application
+2025-03-15 04:07:20,287 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,294 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,295 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,296 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,297 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,297 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,297 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,298 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,298 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 04:07:20,306 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,309 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,312 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,314 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,315 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,315 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,315 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,315 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,316 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,316 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,316 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,316 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,320 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 04:07:20,321 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 04:07:20,329 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,331 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,333 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,337 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,339 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,339 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,339 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,339 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,364 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,371 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,373 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,378 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,379 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,380 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,380 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,380 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,388 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,390 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,391 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,396 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,396 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,396 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,396 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,396 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,402 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,409 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,411 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,412 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,413 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,413 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,414 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,414 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,426 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,428 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,430 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,430 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,430 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,430 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,430 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,430 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,443 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,444 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,446 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,447 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,448 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,448 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,448 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,448 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,460 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,462 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,464 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,466 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,466 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,467 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,467 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,467 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,475 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,477 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,479 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,480 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,480 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,481 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,481 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,481 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,492 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,494 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,496 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,497 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,498 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,498 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,499 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,499 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,510 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,512 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,513 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,515 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,515 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,515 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,515 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,516 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,525 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,526 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,528 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,530 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,531 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,531 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,531 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,532 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,533 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 04:07:20,534 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:07:20,534 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 04:07:20,534 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:07:20,547 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,547 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,553 [INFO] calculator.history: No history file found
+2025-03-15 04:07:20,555 [INFO] calculator.history: History manager initialized
+2025-03-15 04:07:20,555 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:07:20,556 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:07:20,556 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,556 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:07:20,597 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,601 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,612 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,617 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,637 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,672 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,693 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,700 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,709 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,715 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,720 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,724 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,732 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:07:20,739 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,243 [INFO] root: Logging configured with level INFO
+2025-03-15 04:12:34,243 [INFO] calculator.main: Starting calculator application
+2025-03-15 04:12:34,251 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,255 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,257 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,257 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,259 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,259 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,259 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,259 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,259 [INFO] calculator.main: Running in test environment, skipping cmdloop
+2025-03-15 04:12:34,369 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,369 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,369 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,369 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,369 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,369 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,369 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,369 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,369 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,369 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,369 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,369 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,387 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 04:12:34,387 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 04:12:34,392 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,393 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,395 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,397 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,398 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,398 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,398 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,398 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,406 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,406 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,406 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,406 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,406 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,406 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,406 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,406 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,421 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,422 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,424 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,425 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,426 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,429 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,430 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,430 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,437 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,439 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,441 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,442 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,443 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,443 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,443 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,443 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,455 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,455 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,455 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,455 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,455 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,455 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,455 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,455 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,472 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,477 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,477 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,477 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,477 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,477 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,477 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,477 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,490 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,492 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,493 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,498 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,498 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,500 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,500 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,500 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,509 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,511 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,513 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,515 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,516 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,516 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,516 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,516 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,528 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,530 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,532 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,533 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,534 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,534 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,534 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,534 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,545 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,546 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,546 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,551 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,553 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,553 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,553 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,555 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,559 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,561 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,566 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,568 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,568 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,568 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,569 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,570 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,572 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 04:12:34,572 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:12:34,573 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 04:12:34,573 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:12:34,579 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,583 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,589 [INFO] calculator.history: No history file found
+2025-03-15 04:12:34,591 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:34,591 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:34,591 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:34,591 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,591 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:34,591 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,598 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,604 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,612 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,615 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,618 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,623 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,626 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,626 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,626 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,642 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,646 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,649 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,653 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,653 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate fractional power of negative number
+2025-03-15 04:12:34,654 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate negative power of zero
+2025-03-15 04:12:34,658 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:34,658 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,279 [INFO] root: Logging configured with level INFO
+2025-03-15 04:12:49,279 [INFO] calculator.main: Starting calculator application
+2025-03-15 04:12:49,281 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,282 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,284 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,287 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,287 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,288 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,288 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,288 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,288 [INFO] calculator.main: Running in test environment, skipping cmdloop
+2025-03-15 04:12:49,403 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,403 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,403 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,403 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,403 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,403 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,403 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,403 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,403 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,403 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,403 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,403 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,403 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 04:12:49,403 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 04:12:49,421 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,423 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,425 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,429 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,429 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,430 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,430 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,430 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,442 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,443 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,444 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,445 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,446 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,446 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,446 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,446 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,453 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,453 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,453 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,453 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,453 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,453 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,453 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,453 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,476 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,478 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,479 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,481 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,481 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,481 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,481 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,481 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,491 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,493 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,495 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,497 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,497 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,498 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,498 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,498 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,509 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,511 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,512 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,514 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,514 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,514 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,514 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,515 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,522 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,524 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,524 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,528 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,528 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,528 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,530 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,530 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,536 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,538 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,544 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,546 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,547 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,547 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,547 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,547 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,553 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,553 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,553 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,553 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,553 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,553 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,553 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,553 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,566 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,570 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,572 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,573 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,574 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,574 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,574 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,575 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,585 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,587 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,587 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,587 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,587 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,587 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,587 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,587 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,587 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 04:12:49,587 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:12:49,587 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 04:12:49,587 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:12:49,604 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,608 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,611 [INFO] calculator.history: No history file found
+2025-03-15 04:12:49,612 [INFO] calculator.history: History manager initialized
+2025-03-15 04:12:49,613 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:12:49,613 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:12:49,613 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,614 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:12:49,617 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,621 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,625 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,629 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,632 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,638 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,643 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,647 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,651 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,655 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,663 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,666 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,669 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,678 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,680 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate fractional power of negative number
+2025-03-15 04:12:49,680 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate negative power of zero
+2025-03-15 04:12:49,684 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:12:49,689 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,099 [INFO] root: Logging configured with level INFO
+2025-03-15 04:14:05,099 [INFO] calculator.main: Starting calculator application
+2025-03-15 04:14:05,100 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,103 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,106 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,107 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,107 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,109 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,109 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,109 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,109 [INFO] calculator.main: Running in test environment, skipping cmdloop
+2025-03-15 04:14:05,275 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,277 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,279 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,280 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,282 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,282 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,282 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,282 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,283 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,283 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,283 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,284 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,285 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 04:14:05,287 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 04:14:05,295 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,296 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,299 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,300 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,301 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,301 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,301 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,301 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,313 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,315 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,317 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,318 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,319 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,319 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,321 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,323 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,333 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,342 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,344 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,346 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,346 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,346 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,348 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,348 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,357 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,360 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,362 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,364 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,364 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,365 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,365 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,365 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,377 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,379 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,381 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,383 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,383 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,384 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,384 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,384 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,395 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,397 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,399 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,400 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,400 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,402 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,402 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,402 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,415 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,417 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,423 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,425 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,426 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,426 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,426 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,426 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,432 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,433 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,435 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,443 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,443 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,444 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,444 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,444 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,449 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,451 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,457 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,459 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,460 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,460 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,460 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,460 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,466 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,468 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,473 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,474 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,475 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,475 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,475 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,476 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,482 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,483 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,485 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,490 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,491 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,491 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,492 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,492 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,493 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 04:14:05,494 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:14:05,494 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 04:14:05,494 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:14:05,500 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,505 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,505 [INFO] calculator.history: No history file found
+2025-03-15 04:14:05,509 [INFO] calculator.history: History manager initialized
+2025-03-15 04:14:05,509 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:14:05,509 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:14:05,509 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,509 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:14:05,514 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,517 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,525 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,530 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,535 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,545 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,550 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,558 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,561 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,565 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,576 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,580 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,584 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,592 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,592 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate fractional power of negative number
+2025-03-15 04:14:05,592 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate negative power of zero
+2025-03-15 04:14:05,597 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:14:05,600 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,747 [INFO] root: Logging configured with level INFO
+2025-03-15 04:16:34,747 [INFO] calculator.main: Starting calculator application
+2025-03-15 04:16:34,749 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,749 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,756 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,758 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,759 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,760 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,760 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,760 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,760 [INFO] calculator.main: Calculator REPL exited normally
+2025-03-15 04:16:34,766 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,767 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,772 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,775 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,779 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,779 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,779 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,779 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,779 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,780 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,780 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,780 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,781 [ERROR] calculator.repl: Error loading plugin memory.py: Plugin error
+2025-03-15 04:16:34,781 [ERROR] calculator.repl: Error loading plugin scientific.py: Plugin error
+2025-03-15 04:16:34,791 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,793 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,793 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,799 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,799 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,799 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,799 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,799 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,815 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,816 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,817 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,827 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,827 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,827 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,828 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,828 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,832 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,834 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,839 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,842 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,842 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,842 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,843 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,843 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,848 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,850 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,852 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,859 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,859 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,859 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,860 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,860 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,867 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,872 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,874 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,875 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,877 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,877 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,877 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,877 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,884 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,892 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,894 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,896 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,896 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,896 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,896 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,897 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,908 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,910 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,912 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,914 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,915 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,915 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,915 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,916 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,929 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,931 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,932 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,934 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,935 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,935 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,935 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,935 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,947 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,949 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,950 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,952 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,955 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,955 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,956 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,956 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,965 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,966 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,967 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,976 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,976 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,977 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,977 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,977 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,983 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,986 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,993 [INFO] calculator.history: No history file found
+2025-03-15 04:16:34,993 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:34,993 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:34,993 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:34,993 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:34,993 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:34,999 [INFO] calculator.core: Adding 5.0 and 3.0
+2025-03-15 04:16:34,999 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:16:34,999 [INFO] calculator.core: Multiplying 4.0 and 2.0
+2025-03-15 04:16:34,999 [INFO] calculator.core: Calculation result: 8.0
+2025-03-15 04:16:35,007 [INFO] calculator.history: No history file found
+2025-03-15 04:16:35,011 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:35,012 [INFO] calculator.history: No history file found
+2025-03-15 04:16:35,014 [INFO] calculator.history: History manager initialized
+2025-03-15 04:16:35,015 [INFO] calculator.plugins.memory: Memory plugin registered
+2025-03-15 04:16:35,015 [INFO] calculator.repl: Plugin registered: memory.py
+2025-03-15 04:16:35,015 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,015 [INFO] calculator.repl: Plugin registered: scientific.py
+2025-03-15 04:16:35,044 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,049 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,059 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,064 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,067 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,077 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,081 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,084 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,092 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,096 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,099 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,101 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,110 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,114 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,114 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate fractional power of negative number
+2025-03-15 04:16:35,115 [ERROR] calculator.plugins.scientific: Error in power calculation: Cannot calculate negative power of zero
+2025-03-15 04:16:35,118 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized
+2025-03-15 04:16:35,127 [INFO] calculator.plugins.scientific: Scientific calculator plugin initialized

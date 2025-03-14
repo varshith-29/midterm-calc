@@ -177,7 +177,12 @@ class CalculationHistory:
             raise Exception(f"Failed to calculate statistics: {str(e)}")
 
     def _save_history(self) -> None:
-        """Save history to CSV file."""
+        """Save history to CSV file.
+        
+        Raises:
+            Exception: If file cannot be written
+            IOError: If there is an IO error during save
+        """
         try:
             self._df.to_csv(self.history_file, index=False)
             logger.debug("History saved to file")

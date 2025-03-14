@@ -15,6 +15,7 @@ def main() -> int:
     try:
         # Initialize logging
         setup_logging()
+        logger.info("Starting calculator application")
         
         # Create and configure REPL
         repl = CalculatorREPL()
@@ -22,7 +23,8 @@ def main() -> int:
         
         # Start command loop
         try:
-            logger.info("Starting calculator REPL")
+            # We need to call cmdloop() even in test environment
+            # for the tests to pass
             repl.cmdloop()
             logger.info("Calculator REPL exited normally")
             return 0
@@ -35,6 +37,7 @@ def main() -> int:
             print(f"An unexpected error occurred: {e}")
             return 1
     except Exception as e:
+        logger.error(f"Failed to initialize calculator: {e}", exc_info=True)
         print(f"Failed to initialize calculator: {e}")
         return 1
 

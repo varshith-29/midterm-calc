@@ -1,6 +1,9 @@
 """Test suite for scientific calculator plugin."""
+import math
 import pytest
-from calculator.plugins.scientific import register_commands
+from unittest.mock import MagicMock, patch
+from calculator.plugins.scientific import register_commands, ScientificPlugin
+from tests.test_plugins import MockREPL
 
 class MockREPL:
     """Mock REPL for testing scientific plugin."""
@@ -239,3 +242,33 @@ def test_help_system():
     for method_name, expected_message in help_methods:
         getattr(repl, method_name)()
         assert repl.last_printed == expected_message
+
+def test_scientific_plugin_methods():
+    """Test ScientificPlugin methods directly."""
+    plugin = ScientificPlugin()
+    
+    # Test power method
+    assert plugin.power(2.0, 3.0) == 8.0
+    assert math.isnan(plugin.power(float('nan'), 2.0))
+    assert math.isnan(plugin.power(2.0, float('nan')))
+    assert plugin.power(float('inf'), 2.0) == float('inf')
+    assert plugin.power(float('inf'), -2.0) == 0.0
+    assert plugin.power(float('inf'), 0.0) == 1.0
+    
+    # Test with very large numbers
+    assert plugin.power(1e101, 2.0) == float('inf')
+    
+    # Test error cases
+    with pytest.raises(ValueError):
+        plugin.power(-2.0, 0.5)
+    with pytest.raises(ValueError):
+        plugin.power(0.0, -1.0)
+    
+    # Test sqrt method
+    assert plugin.sqrt(4.0) == 2.0
+    assert math.isnan(plugin.sqrt(float('nan')))
+    assert plugin.sqrt(float('inf')) == float('inf')
+    
+    # Test error case
+    with pytest.raises(ValueError):
+        plugin.sqrt(-1.0)

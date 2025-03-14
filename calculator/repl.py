@@ -7,7 +7,13 @@ import importlib
 from typing import List, Optional, Any, Dict, Tuple
 
 from calculator.core import Calculator
-from calculator.history import CalculationHistory
+
+# Try to import CalculationHistory from primary location
+try:
+    from calculator.history import CalculationHistory
+except ImportError:
+    # Fall back to core implementation if history module is not available
+    from calculator.core import CalculationHistory
 
 __all__ = ['CalculatorREPL']
 
@@ -22,7 +28,10 @@ class CalculatorREPL(cmd.Cmd):
         """Initialize the calculator REPL."""
         super().__init__()
         self.calculator = Calculator()
-        self.history = self.calculator.history
+        # Create history instance and make it accessible
+        self._history = CalculationHistory()
+        self.calculator.history = self._history
+        self.history = self._history
         self.result = 0.0
         self._load_plugins()
 
