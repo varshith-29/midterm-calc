@@ -1,4 +1,4 @@
-# Command-Line Calculator
+# Advanced Python Calculator
 
 A feature-rich command-line calculator application with plugin support, calculation history management, and comprehensive logging.
 
