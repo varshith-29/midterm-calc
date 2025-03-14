@@ -1,7 +1,7 @@
-"""Calculator package initialization."""
+"""Calculator package."""
+from calculator.main import main
+from calculator.core import Calculator
+from calculator.repl import CalculatorREPL
+from calculator.history import CalculationHistory
 
-from .core import Calculator
-from .repl import CalculatorREPL
-from .config import setup_logging
-
-__version__ = '1.0.0'
+__all__ = ['main', 'Calculator', 'CalculatorREPL', 'CalculationHistory']

@@ -15,14 +15,12 @@ A feature-rich command-line calculator application with plugin support, calculat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/varshith-29/midterm-calc
-   cd midterm-calc
+   git clone https://github.com/yourusername/calculator.git
+   cd calculator
    ```
 
-2. Setup Virtual Environment and Install dependencies:
+2. Install dependencies:
    ```bash
-   py -m venv .venv
-   .venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
@@ -30,7 +28,7 @@ A feature-rich command-line calculator application with plugin support, calculat
 
 Run the calculator:
 ```bash
-py main.py
+py -m calculator
 ```
 
 ### Available Commands
