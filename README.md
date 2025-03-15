@@ -1,4 +1,4 @@
-# Command-Line Calculator
+# Advanced Python Calculator
 
 A feature-rich command-line calculator application with plugin support, calculation history management, and comprehensive logging.
 
@@ -18,8 +18,17 @@ A feature-rich command-line calculator application with plugin support, calculat
    git clone https://github.com/varshith-29/midterm-calc.git
    cd calculator
    ```
+ 2. Setup Virtual Environment and Install dependencies
+    ```bash
+    py -m venv .venv     #for windows
+    python -m venv venv  #for MacOs
+    ```
+    ```bash
+    .venv\Scripts\activate   #for windows
+    source venv/bin/activate #for MacOS
+    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
