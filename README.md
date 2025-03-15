@@ -21,8 +21,14 @@ A feature-rich command-line calculator application with plugin support, calculat
 
 2. Setup Virtual Environment and Install dependencies:
    ```bash
-   py -m venv .venv
-   .venv\Scripts\activate
+   py -m venv .venv     #for windows
+   python -m venv venv  #for MacOs
+   ```
+   ```bash
+   .venv\Scripts\activate   #for windows
+   source venv/bin/activate #for MacOS
+   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
