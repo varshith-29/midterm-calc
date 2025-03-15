@@ -111,3 +111,5 @@ Generate coverage report:
 ```bash
 pytest --cov=calculator tests/
 ```
+### Demo Video
+[📹 Click to View](https://drive.google.com/file/d/1V0Zokpub8DfO6-XRDH8s0fTLIF5TqYQt/view?usp=sharing)
